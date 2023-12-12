@@ -3,12 +3,12 @@ package soham.weaviate;
 public class Resume {
     private String title;
     private String filepath;
-    private String contentVector;
+    private String content;
 
-    public Resume(String title, String filepath, String contentVector) {
+    public Resume(String title, String filepath, String content) {
         this.title = title;
         this.filepath = filepath;
-        this.contentVector = contentVector;
+        this.content = content;
     }
 
     public String getTitle() {
@@ -19,7 +19,7 @@ public class Resume {
         return filepath;
     }
 
-    public String getContentVector() {
-        return contentVector;
+    public String getContent() {
+        return content;
     }
 }
