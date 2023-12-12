@@ -1,0 +1,26 @@
+{
+  "schema": 1,
+  "type": "completion",
+  "description": "Extracts the most relevant skills from a resume and compares them to the skills required for a job/role.",
+  "completion": {
+    "max_tokens": 2000,
+    "temperature": 0.0,
+    "top_p": 0.0,
+    "presence_penalty": 0.0,
+    "frequency_penalty": 0.0
+  },
+  "input": {
+    "parameters": [
+      {
+        "name": "requirement",
+        "description": "job/role description",
+        "defaultValue": ""
+      },
+      {
+        "name": "resume",
+        "description": "entire resume content",
+        "defaultValue": ""
+      }
+    ]
+  }
+}

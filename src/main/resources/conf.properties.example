@@ -1,0 +1,7 @@
+client.azureopenai.key=
+client.azureopenai.endpoint=
+client.azureopenai.deploymentname=
+client.azureopenai.embeddingname=
+client.azureopenai.resourcename=
+weaviate.url.protocol=http
+weaviate.url.hostport=localhost:8080

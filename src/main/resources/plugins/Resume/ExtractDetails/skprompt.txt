@@ -1,0 +1,15 @@
+The {{$resume}} is a list of resumes in JSON format.
+Extract the fullname and current job/role description and list 10 key skills and highlights relevant to the {{$requirement}}, each in 20 words or less for each object from the {{$resume}}.
+
+The resume is a JSON string with the following format:
+[
+    { "title": "filename of the resume",
+      "filepath": "path of the file",
+      "content": "content of the resume"
+    },
+    { "title": "filename of the resume",
+      "filepath": "path of the file",
+      "content": "content of the resume"
+    }
+]
+
